@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
+ .App{
+  background-color:antiquewhite ;
+ }
+ 
+ 
+ .markdown-previewer {
+   box-sizing: border-box;
+   min-width: 200px;
+   max-width: 980px;
+   margin: 0 auto;
+   padding: 45px;
+   text-align: center;
+   border: 2px black;
+   display: flex;
+   flex-direction: column;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .editor {
+   background-color: antiquewhite;
+   width: 70%;
+   float: right;
+   margin: 40px 50px 0 40px;
+   border-radius: 10px;
+   box-shadow: 0 0px 10px 2px rgb(44, 43, 43);
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .editor-heading {
+   background-color: rgb(225, 194, 145);
+   height: 40px;
+   padding-top: 10px;
+   text-align: left;
+   padding-left: 30px;
+   font-size: 30px;
+   box-shadow: 0 0px 10px 2px rgb(44, 43, 43);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ textarea {
+   background-color: antiquewhite;
+   height: 300px;
+   width: 70%;
+   margin: 10px 30px 30px 30px;
+   font-size: large;
+ }
+
+ .preview-heading {
+   background-color: rgb(225, 194, 145);
+   height: 40px;
+   padding-top: 10px;
+   text-align: left;
+   padding-left: 30px;
+   font-size: 30px;
+   box-shadow: 0 0px 10px 2px rgb(44, 43, 43);
+ }
+
+ div #preview {
+   float: left;
+   text-align: left;
+   background-color: antiquewhite;
+   padding: 1px 0px 0 0px;
+   margin: 10px 50px 0 40px;
+   border-radius: 10px;
+   box-shadow: 0 0px 10px 2px rgb(52, 51, 51);
+ }
+
+ .preview {
+   margin-left: 30px;
+   margin-right: 10px;
+ }
+
+ img {
+   max-width: 300px;
+ }
+
+ h1 {
+   padding-bottom: 4px;
+   border-bottom: 4px solid black;
+ }
+
+ h2 {
+   border-bottom: 2px solid rgb(52, 51, 51);
+   padding-bottom: 5px;
+ }
